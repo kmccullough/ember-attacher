@@ -1,4 +1,3 @@
-import classic from 'ember-classic-decorator';
 import { tagName, layout as templateLayout } from '@ember-decorators/component';
 import { observes } from '@ember-decorators/object';
 import { action, computed } from '@ember/object';
@@ -13,7 +12,7 @@ import { stripInProduction } from 'ember-attacher/-debug/helpers';
 import { warn } from '@ember/debug';
 import { isEmpty } from '@ember/utils';
 
-@classic
+
 @templateLayout(layout)
 @tagName('')
 export default class AttachPopover extends Component {
