@@ -33,6 +33,8 @@ export default class AttachPopover extends Component {
   isShown = DEFAULTS.isShown;
   lazyRender = DEFAULTS.lazyRender;
   onChange = null;
+  onCreate = null;
+  onUpdate = null;
   placement = DEFAULTS.placement;
   popperContainer = DEFAULTS.popperContainer;
   popperOptions = DEFAULTS.popperOptions;
